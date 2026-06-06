@@ -21,7 +21,7 @@ export const personal = {
   linkedin:         'https://www.linkedin.com/in/iamshadab/',
   github:           'https://github.com/shadab03',
   available:        true,
-  availabilityText: 'Open to Senior Technical Lead & Solution Architect roles · Riyadh, KSA',
+  availabilityText: 'Open to Senior Technical Lead & Solution Architect roles · KSA',
 }
 
 export const stats: Stat[] = [
@@ -116,5 +116,5 @@ export const certifications: Cert[] = [
 
 export const ticker: string[] = [
   'Engineering Team Lead','Solution Architect','Azure AZ-305','NestJS & Next.js',
-  'Microservices','PostgreSQL','Azure OpenAI','Riyadh KSA','CI/CD & DevOps','Event-Driven Systems',
+  'Microservices','PostgreSQL','Azure OpenAI','CI/CD & DevOps','Event-Driven Systems',
 ]
