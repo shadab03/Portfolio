@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=JetBrains+Mono:wght@300;400;500;600&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { cursor: none; background: #050c1a; color: #e2e8f0; font-family: 'Manrope', sans-serif; overflow-x: hidden; }
+  * { box-sizing: border-box; }
+}
+
+@layer utilities {
+  .text-stroke { -webkit-text-stroke: 1px rgba(255,255,255,0.3); color: transparent; }
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(59,130,246,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(59,130,246,0.04) 1px, transparent 1px);
+    background-size: 80px 80px;
+  }
+  .glow-blue  { box-shadow: 0 0 24px rgba(59,130,246,0.4); }
+  .glow-cyan  { box-shadow: 0 0 24px rgba(34,211,238,0.4); }
+  .glass { background: rgba(13,22,40,0.7); backdrop-filter: blur(20px); }
+}
