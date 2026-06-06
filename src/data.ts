@@ -14,8 +14,8 @@ export const personal = {
   title:            'Senior Technical Lead',
   subtitle:         'Solution Architect',
   tagline:          'I build platforms that scale to millions and teams that ship without breaking.',
-  description:      '8+ years turning complex backend systems into clean, maintainable architecture — on Azure, NestJS, Next.js, and everything in between.',
-  location:         'Riyadh, Saudi Arabia',
+  description:      '10+ years turning complex backend systems into clean, maintainable architecture — on Azure, NestJS, Next.js, and everything in between.',
+  location:         'Saudi Arabia',
   email:            'SyedShadab03@gmail.com',
   phone:            '+966-556796242',
   linkedin:         'https://www.linkedin.com/in/iamshadab/',
@@ -25,20 +25,20 @@ export const personal = {
 }
 
 export const stats: Stat[] = [
-  { value: '8+',   unit: 'YRS',       label: 'Engineering Experience' },
-  { value: '8+',   unit: 'ENGINEERS', label: 'Team Size Led'          },
+  { value: '10+',   unit: 'YRS',       label: 'Engineering Experience' },
+  { value: '12+',   unit: 'ENGINEERS', label: 'Team Size Led'          },
   { value: '~40%', unit: '↓ LATENCY', label: 'Paymerang Pipeline'     },
   { value: '3',    unit: 'CERTS',     label: 'Azure + AWS'            },
 ]
 
 export const aboutParagraphs: string[] = [
-  "I started as a developer who wanted to understand <strong>why</strong> systems fail — and spent 8 years building the instinct to stop them before they do. Today, as <em>Engineering Team Lead at LOGISTI</em> in Riyadh, I own the full picture: architecture, delivery, team health, and production stability.",
+  "I started as a developer who wanted to understand <strong>why</strong> systems fail — and spent 10 years building the instinct to stop them before they do. Today, as <em>Engineering Team Lead at LOGISTI</em> in Riyadh, I own the full picture: architecture, delivery, team health, and production stability.",
   "My edge isn't just technical depth — it's knowing when <strong>not</strong> to use Kubernetes. When a monolith is the right call. When the team needs unblocking more than a new framework. I've led squads through 2am War Rooms, legacy migrations that couldn't touch uptime, and AI integrations that actually shipped.",
   "I believe the best architecture is the <em>simplest one that solves the business problem</em>. And the best engineering team is built on trust, not just talent.",
 ]
 
 export const kpis: KPI[] = [
-  { value: '8+',    label: 'Years of Production Engineering',    sub: 'fintech · logistics · e-commerce · OTT'         },
+  { value: '10+',    label: 'Years of Production Engineering',    sub: 'fintech · logistics · e-commerce · OTT'         },
   { value: '~40%',  label: 'Latency Reduced at Paymerang',       sub: 'RabbitMQ async pipeline redesign'               },
   { value: '60%',   label: 'Fewer Recurring P1/P2 Incidents',    sub: 'via War Room protocols & RCA discipline'        },
   { value: '3×',    label: 'Legacy Systems Migrated',            sub: '.NET Framework → cloud-native, zero downtime'   },
